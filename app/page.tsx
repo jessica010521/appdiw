@@ -10,10 +10,13 @@ export default function page(){
   as páginas a carregarem rapidinho... e o melhor? 
   Em breve vai estar online no Vercel! 🚀
   </p>
+  <p></p>
 
-  <p>
-  <Link href='/'>
-  Counter</Link>
-  </p>
+  <p>Com sorte e algum café,</p>
+  <p>Vou passar desta vez com fé.</p>
+  <p>Se o código falhar outra vez,</p>
+  <p>Choro e tento outra vez! ☕😂</p>
+
+
   </>
 }
