@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function page(){
   return <>
@@ -8,6 +9,11 @@ export default function page(){
   😍 Que sensação incrível ver tudo a ganhar vida, os componentes a encaixarem, 
   as páginas a carregarem rapidinho... e o melhor? 
   Em breve vai estar online no Vercel! 🚀
+  </p>
+
+  <p>
+  <Link href='/'>
+  Counter</Link>
   </p>
   </>
 }
