@@ -29,6 +29,8 @@ body {
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.4); /* Um leve fundo escuro por baixo */
+    background-blend-mode: overlay;
 }
 
 main {
