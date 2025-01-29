@@ -3,6 +3,7 @@ import Link from 'next/link'
 
 export default function page(){
   return <>
+  <main className='home'>
   <h1>React e Next.js</h1>
   <p>
   🔥 Finalmente a criar a minha primeira app em React e Next.js! 
@@ -17,6 +18,7 @@ export default function page(){
   <p>Se o código falhar outra vez,</p>
   <p>Choro e tento outra vez! ☕😂</p>
 
+  </main>
 
   </>
 }

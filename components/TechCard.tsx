@@ -13,7 +13,7 @@ export default function TechCard({ title, image, description, rating }: TechCard
             <img
                 src={image}
                 alt={title}
-                className="mx-auto w-24 h-24 object-contain"
+                className="w-full h-32 object-contain mx-auto"
             />
             <h3 className="text-xl font-bold text-center mt-4">{title}</h3>
             <p className="text-gray-600 text-center mt-2">{description}</p>
